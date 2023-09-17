@@ -1,25 +1,50 @@
 .main-header {
+    display: flex;  /* Vertically center align items */
+    justify-content: space-between; /* Space items evenly */
+    align-items:center;
     background-color: rgba(241, 226, 15, 0.50);
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-    border-bottom: 1px solid color black;
+    background-size: cover;
+    }
 
+/* Style the title */
+.title {
+        font-family: sans-serif, Arial, Helvetica, sans-serif;
+    }
+
+
+/* Style the logo image */
+.logo img {
+    float:left;
+    max-width: 30%; /* Limit the logo's maximum width */
+    height: auto; /* Maintain aspect ratio */
+    padding:1%;
 }
 
-.git-image {
-    padding: 30px;
-    width: 80px;
+
+nav ul {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-
-h1 {
-    text-align: center;
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
-    padding-top: 10px;
+nav ul li {
+    display: inline; /* Display navigation items inline */
+    text-decoration: none;
+    margin-right: 20px; /* Add spacing between navigation items */
 }
 
+/* Style navigation links */
+nav a {
+    text-decoration: none;
+    color: #333; /* Change the link color */
+    font-weight: bold; /* Make the links bold */
+}
+
+/* Add hover effect for links */
+nav a:hover {
+    color: #ff9900; /* Change the link color on hover */
+}
 
 dl {
     font-family: sans-serif, Arial, Helvetica, sans-serif;
@@ -29,7 +54,6 @@ dl {
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 15%;
-
 }
 
 dt {
@@ -38,15 +62,12 @@ dt {
     font-weight: bold;
     text-align: left;
     margin-bottom: 1%;
-
 }
 
 dd {
     text-align: left;
     margin-left: 10px;
     margin-bottom: 2.5%;
-
-
 }
 
 .footer {
