@@ -1,26 +1,28 @@
 .main-header {
-    display:flex;  /* horizontally center align items */
-    justify-content: space-between; /* Space items evenly */
-    align-items:center;
-    font-size: 60%;
+    display: flex;
+    /* horizontally center align items */
+    justify-content: space-between;
+    /* Space items evenly */
+    align-items: center;
+    font-size: 100%;
     background-color: rgba(241, 226, 15, 0.50);
     background-size: cover;
     padding: 10px;
-    }
+}
 
 /* Style the title */
 .title {
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold; /* Make it bold */
-       /* font-size: 2rem; /* Adjust the font size as needed */
-    }
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; /* Make it bold */
+    font-size: 2rem; /* font-size: 2rem; /* Adjust the font size as needed */
+}
 
 /* Style the logo image */
 .logo img {
     width: 75%; /* Limit the logo's maximum width */
     height: auto; /* Maintain aspect ratio */
     margin: 0, auto;
-   }
+}
 
 
 nav ul {
@@ -82,37 +84,38 @@ dd {
 p {
     margin: 0;
     padding: 6px, 0;
-    }
+}
 
-    .main-header {
-    display:flex;  /* horizontally center align items */
-    justify-content: space-between; /* Space items evenly */
-    align-items:center;
+.main-header {
+    display: flex;
+    /* horizontally center align items */
+    justify-content: space-between;
+    /* Space items evenly */
+    align-items: center;
     font-size: 100%;
     background-color: rgba(241, 226, 15, 0.50);
     background-size: cover;
     padding: 10px;
-    }
+}
 
 /* Style the title */
 .title {
-    position:relative;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold; /* Make it bold */
-        font-size: 1.5rem /* Adjust the font size as needed */
-    }
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; /* Make it bold */
+    font-size: 1.5rem; /* Adjust the font size as needed */
+}
 
 /* Style the logo image */
 .logo img {
-    position:relative;
+    position: relative;
     max-width: 75px; /* Limit the logo's maximum width */
     height: auto; /* Maintain aspect ratio */
     margin-left: 45%;
-   }
+}
 
 
 nav ul {
-    position:relative;
+    position: relative;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -171,24 +174,23 @@ dd {
 p {
     margin: 0;
     padding: 6px, 0;
-    }
+}
 
-    /* Media query for smaller screens */
-@media (max-width: 768px) 
-{
+/* Media query for smaller screens */
+@media (max-width: 768px) {
     .main-header {
-      /* flex-direction: column; /* Stack items vertically on smaller screens */
-        text-align: center; /* Center-align text */
+        flex-direction: column;/* flex-direction: column; /* Stack items vertically on smaller screens */
+        text-align: center;  /* Center-align text */
     }
 
     .logo img {
         max-width: 25%; /* Reduce the max-width of the logo on smaller screens */
-        margin: 0; /* Center-align the logo and add space below it */
+        margin: 0 auto; /* Center-align the logo and add space below it */
     }
 
     .title {
-        font-size: 1rem; /* Adjust title font size for smaller screens */
-        margin-left: auto;
+        font-size: 2rem;  /* Adjust title font size for smaller screens */
+        margin-left: 0 auto;
         margin-top: 10px; /* Add space above the title */
     }
 }
