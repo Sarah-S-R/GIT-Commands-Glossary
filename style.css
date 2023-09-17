@@ -2,7 +2,7 @@
     display:flex;  /* horizontally center align items */
     justify-content: space-between; /* Space items evenly */
     align-items:center;
-    font-size: 100%;
+    font-size: 60%;
     background-color: rgba(241, 226, 15, 0.50);
     background-size: cover;
     padding: 10px;
@@ -12,12 +12,12 @@
 .title {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold; /* Make it bold */
-        font-size: 1.5rem /* Adjust the font size as needed */
+       /* font-size: 2rem; /* Adjust the font size as needed */
     }
 
 /* Style the logo image */
 .logo img {
-    max-width: 75px; /* Limit the logo's maximum width */
+    width: 75%; /* Limit the logo's maximum width */
     height: auto; /* Maintain aspect ratio */
     margin: 0, auto;
    }
@@ -174,9 +174,10 @@ p {
     }
 
     /* Media query for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 768px) 
+{
     .main-header {
-        flex-direction: column; /* Stack items vertically on smaller screens */
+      /* flex-direction: column; /* Stack items vertically on smaller screens */
         text-align: center; /* Center-align text */
     }
 
@@ -186,13 +187,8 @@ p {
     }
 
     .title {
-        font-size: .75rem; /* Adjust title font size for smaller screens */
+        font-size: 1rem; /* Adjust title font size for smaller screens */
         margin-left: auto;
         margin-top: 10px; /* Add space above the title */
     }
 }
-
-
-
-
-
