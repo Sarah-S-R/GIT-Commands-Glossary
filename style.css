@@ -14,8 +14,7 @@
 .title {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold; /* Make it bold */
-    font-size: 2rem; /* font-size: 2rem; /* Adjust the font size as needed */
-}
+    }
 
 /* Style the logo image */
 .logo img {
@@ -95,7 +94,7 @@ p {
     font-size: 100%;
     background-color: rgba(241, 226, 15, 0.50);
     background-size: cover;
-    padding: 10px;
+    padding: 2px;
 }
 
 /* Style the title */
@@ -165,9 +164,11 @@ dd {
 
 .footer {
     background-color: rgba(241, 226, 15, 0.50);
-    height: 24px;
+    height: 50px;
     font-family: sans-serif;
-    text-align: center;
+    text-align: right;
+    padding-top: 2.5%;
+    padding-right: 4%;
     background-size: cover;
 }
 
@@ -189,7 +190,7 @@ p {
     }
 
     .title {
-        font-size: 2rem;  /* Adjust title font size for smaller screens */
+        font-size: 0.75rem;  /* Adjust title font size for smaller screens */
         margin-left: 0 auto;
         margin-top: 10px; /* Add space above the title */
     }
